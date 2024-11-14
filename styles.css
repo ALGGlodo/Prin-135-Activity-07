@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    animation: rowing 5s infinite;
+}
+
+h1{
+    color: aqua;
+}
+
+@keyframes rowing{
+    0%, 100%{
+        transform: rotate(100deg);
+    }
+    50%{
+        transform: rotate(-100deg);
+}
+}
